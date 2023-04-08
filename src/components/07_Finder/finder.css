@@ -1,0 +1,95 @@
+.background-finder {
+    height: 100vh;
+    background: url("../images/Background.png") no-repeat center;
+    background-size: cover;
+}
+
+.dropdown-color {
+    color: #1a70e8 !important;
+    font-weight: bolder !important;
+}
+
+.box-background {
+    background-color: #f2f6fa;
+    padding: 16px;
+}
+
+.box-radius-left {
+    border-radius: 4px 0 0 4px;
+}
+
+.box-radius-right {
+    border-radius: 0 4px 4px 0;
+}
+
+.conversation__input-container.top {
+    top: 0px;
+}
+
+.conversation__messages.finder {
+    height: calc(100vh - 216px - 10px);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .conversation__input-container.top {
+        top: 0;
+    }
+}
+
+.left-border {
+    border-top: 2px solid #1a70e8;
+    border-bottom: 2px solid #1a70e8;
+    border-left: 2px solid #1a70e8;
+}
+
+.middle-border {
+    border-top: 2px solid #1a70e8;
+    border-bottom: 2px solid #1a70e8;
+}
+
+.right-border {
+    border-top: 2px solid #1a70e8;
+    border-bottom: 2px solid #1a70e8;
+    border-right: 2px solid #1a70e8;
+}
+
+.btn-message {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #1a70e8;
+}
+
+.svg-image {
+    width: 55px;
+    height: 55px;
+    float: right;
+}
+
+.button-style {
+    color: #1a70e8;
+    border: none;
+    padding: 0;
+}
+
+.button-style:hover, .button-style:focus {
+    color: #1a70e8;
+    border: none;
+}
+
+p.text-position {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #6f7182;
+    position: relative !important;
+}
+
+/* for messages on mobile devices */
+
+.message-icon {
+    padding: 5px 2px;
+    position: relative;
+    bottom: 15px;
+}

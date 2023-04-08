@@ -1,0 +1,47 @@
+$from-left-color: #f1f5f9;
+$from-right-color: #1a70e8;
+$label-color: rgb(119, 118, 119);
+$radius: 2rem;
+
+.message {
+    position: relative;
+    text-align: left;
+
+    &--from-left {
+        text-align: left;
+    }
+
+    &--from-right {
+        text-align: left;
+    }
+
+    &__content {
+        background-color: $from-left-color;
+        border-radius: $radius $radius $radius 0;
+        color: #30314e;
+        margin-top: 0.1rem;
+        padding: 0.8rem;
+        width: fit-content;
+        max-width: 80%;
+        font-size: 16px;
+
+
+        .message--from-left & {
+            background-color: $from-left-color;
+            color: #30314e;
+            border-radius:  0 $radius  $radius $radius ;
+            margin-left: 0;
+            margin-right: auto;
+
+        }
+
+        .message--from-right & {
+            color: #fff;
+            margin-left: auto;
+            margin-right: 0;
+            background-color: $from-right-color;
+            border-radius: $radius  $radius 0 $radius ;
+        }
+    }
+
+}

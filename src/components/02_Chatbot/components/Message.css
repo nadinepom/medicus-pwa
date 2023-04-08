@@ -1,0 +1,28 @@
+.message {
+  position: relative;
+  text-align: left; }
+  .message--from-left {
+    text-align: left; }
+  .message--from-right {
+    text-align: left; }
+  .message__content {
+    background-color: #f1f5f9;
+    border-radius: 2rem 2rem 2rem 0;
+    color: #30314e;
+    margin-top: 0.1rem;
+    padding: 0.8rem;
+    width: fit-content;
+    max-width: 80%;
+    font-size: 16px; }
+    .message--from-left .message__content {
+      background-color: #f1f5f9;
+      color: #30314e;
+      border-radius: 0 2rem 2rem 2rem;
+      margin-left: 0;
+      margin-right: auto; }
+    .message--from-right .message__content {
+      color: #fff;
+      margin-left: auto;
+      margin-right: 0;
+      background-color: #1a70e8;
+      border-radius: 2rem 2rem 0 2rem; }

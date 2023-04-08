@@ -1,0 +1,18 @@
+---
+declared-services:
+  watson-assistant-service:
+    label: conversation
+    plan: free
+  healthDiscovery:
+    label: discovery
+    plan: lite
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  name: ams-chatbot
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  disk_quota: 1024M
+  services:
+  - ams-assistant
+  - ams-discovery

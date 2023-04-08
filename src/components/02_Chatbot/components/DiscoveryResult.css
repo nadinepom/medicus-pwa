@@ -1,0 +1,47 @@
+.result {
+  background-color: #f1f5f9;
+  max-width: 100%;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+  .result__title {
+    color: #30314e;
+    font-weight: bolder;
+    font-size: 25px; }
+  .result__text {
+    color: #30314e;
+    font-size: 15px; }
+  .result__collapseTitle {
+    color: #30314e;
+    font-size: 15px;
+    font-weight: bolder;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0; }
+
+.result + .result {
+  margin-top: 0rem;
+  border-top: none; }
+
+.card-height {
+  height: 60px; }
+
+.card-text2 {
+  display: block;
+  text-align: left;
+  float: left;
+  position: relative;
+  top: -15px; }
+
+.icon-arrow {
+  display: block !important;
+  text-align: right;
+  margin-right: 40px; }
+
+[data-toggle="collapse"] .fa:before {
+  content: "\f106";
+  font-size: 30px; }
+
+[data-toggle="collapse"].collapsed .fa:before {
+  content: "\f107";
+  font-size: 30px; }

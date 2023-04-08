@@ -1,0 +1,128 @@
+$app-intro-color: rgb(199, 199, 199);
+
+.new-hr {
+  border: 1px solid #f2f6fa;
+  border-radius: 2px;
+  margin-left: 16px !important;
+  margin-right: 16px !important;
+}
+
+svg {
+  margin-top: 5px;
+  width: 35px;
+  height: 32px;
+}
+
+p.card-title {
+  color: #6f7182;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p.headline {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #30314e;
+  margin: 0px;
+}
+
+p.card-text{
+  font-size: 16px;
+  line-height: 1.5;
+  color: #6f7182;
+}
+
+p.small-text {
+  color: #6f7182;
+  font-size: 12px;
+  margin-left: 16px !important;
+  margin-right: 16px !important;
+  margin-bottom: 8px !important;
+}
+
+.vh100{
+  min-height: max-content;
+  margin-bottom: 24px;
+}
+
+.card-accordion {
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  overflow: scroll;
+}
+
+.mobile-hide {
+  display: block;
+}
+
+.mobile-show {
+  display: none;
+}
+
+.first-text{
+  margin-top: 54px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .mobile-hide {
+    display: none;
+  }
+  .mobile-show {
+    display: block;
+  }
+  .first-text{
+    margin-top: 0;
+  }
+}
+
+.video-format {
+  width: 100px;
+  height: 100px;
+}
+
+.position-mobile-bot {
+  display: block;
+  margin: 0 auto;
+}
+
+.medicus-button {
+  margin: 2px auto 8px auto;
+  background-color: white !important;
+  width: 100%;
+  padding: 0;
+  border: none;
+  border-radius: 4px 4px 0 0;
+}
+
+
+// Offline function
+
+.container-offline {
+   z-index: 10;
+   padding: 15px;
+   text-align: center;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   color: white;
+ }
+.container-offline2 {
+  z-index: 10;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+}
+
+offline-header {
+  font-weight: bold;
+  font-size: medium;
+  color: #ffffff;
+}
+
+.offline-text {
+  color: #ffffff;
+  font-size: 12px;
+}

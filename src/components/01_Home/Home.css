@@ -1,0 +1,206 @@
+/** For the distances on the different sides. */
+
+.abstand {
+    margin-top: 8px;
+}
+
+.abstand1 {
+    margin-top: 16px;
+}
+
+.abstand2 {
+    margin-top: 24px;
+}
+
+.abstand3 {
+    margin-top: 64px;
+}
+
+div.margin0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+div.margin-8 {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row:before, .row:after {
+    display: inline-block;
+}
+
+.new1 {
+    border-top: 1px solid;
+    position: relative;
+    top: -22px;
+    color: #8e8e8e;
+}
+
+.text-block {
+    position: relative;
+    top: 10px;
+    color: #000000;
+    margin-left: 10px;
+}
+
+p.card-title {
+    font-weight: bold;
+    color: #6f7182;
+    font-size: 22px;
+}
+
+p.card-text {
+    color: #6f7182;
+    font-size: 16px;
+}
+
+.span6 {
+    float: left;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.vh100 {
+    max-height: min-content;
+}
+
+.vh50 {
+    max-height: min-content;
+}
+
+.btn-round {
+    position: relative;
+    top: -40px;
+    float: right;
+    width: 32px;
+    height: 32px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #1a70e8;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+
+.speech-bubble2 {
+    position: absolute;
+    width: 50%;
+    border-radius: 0.6em;
+    padding-top: 10px;
+    margin: 5% 0 -10% 35%;
+    text-align: center;
+    background-color: white;
+}
+
+.text-bot {
+    font-weight: bold;
+    color: #6f7182;
+    font-size: 22px;
+}
+
+.text-bot2 {
+    font-weight: bold;
+    color: #6f7182;
+    font-size: 22px;
+}
+
+video {
+    border-radius: 4px 4px 0 0;
+}
+
+@media (max-width: 768px) and (min-width: 319px) {
+    .speech-bubble2 {
+        position: absolute;
+        width: 60%;
+        border-radius: 0.6em;
+        margin: 5% 0 0 30%;
+        padding-top: 5px;
+        text-align: center;
+    }
+
+    .text-bot {
+        font-size: 18px;
+    }
+
+    .text-bot2 {
+        font-size: 18px;
+        margin: -15px 0 5px 0;
+    }
+
+    .vh100 {
+        min-height: max-content;
+    }
+
+    .vh50 {
+        min-height: max-content;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .speech-bubble2 {
+        position: absolute;
+        width: 50%;
+        border-radius: 0.6em;
+        padding-top: 10px;
+        padding-bottom: 0;
+        margin: 5% 0 -10% 40%;
+        text-align: center;
+    }
+
+    .text-bot {
+        font-size: 22px;
+    }
+
+    .text-bot2 {
+        font-size: 22px;
+        margin: -15px 0 15px 0;
+    }
+
+    div.margin-8 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.speech-bubble2:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: white;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -10px;
+    margin-bottom: -20px;
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+}
+
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+
+.dark-blue-text {
+    color: #000000;
+}
+
+#flex-container {
+    height: max-content;
+}
+
+.test {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
